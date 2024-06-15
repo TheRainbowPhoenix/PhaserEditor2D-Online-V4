@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Phaser Editor - v4.0.2</title>
+
+	<link rel="icon" type="image/png" href="/editor/static/favicon.png">
+
+
+	<!-- plugin:product.all -->
+	<link href="/editor/plugins/product.all/product.all.css" rel="stylesheet">
+
+	
+	<style>
+        #splash-container {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            background: #202020;
+        }
+
+        #splash {
+            position: absolute;
+            left: 50vw;
+            top: 50vh;
+            width: 96px;
+            transform: translate(-50%,-50%);
+            animation-name: splashAnim;
+            animation-delay: 0ms;
+            animation-duration: .5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        @keyframes splashAnim {
+            from { opacity: 0.8; }
+            to { opacity: 1; }
+        }
+    </style>
+
+</head>
+
+<body>
+	<div id="splash-container">
+		<img id="splash" src="/editor/static/favicon.png">
+	</div>
+
+	<!-- plugin:product.all -->
+	<script src="/editor/plugins/product.all/product.all.js"></script>
+
+</body>
+
+</html>

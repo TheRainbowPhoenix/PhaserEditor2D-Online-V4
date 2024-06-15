@@ -1,0 +1,28 @@
+{"frames": {
+
+"dark/phaser-studio.png":
+{
+	"frame": {"x":1,"y":1,"w":16,"h":16},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+	"sourceSize": {"w":16,"h":16}
+},
+"light/phaser-studio.png":
+{
+	"frame": {"x":1,"y":1,"w":16,"h":16},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+	"sourceSize": {"w":16,"h":16}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "atlas@1x.png",
+	"format": "RGBA8888",
+	"size": {"w":18,"h":18},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:7d87751a5ce120761549c3d99d3af185:eb78dd06abe2f1118d5389adb5a31f7a:a6f74b55a90107bc4ae6d23dde1c2d9e$"
+}
+}
